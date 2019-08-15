@@ -16,6 +16,10 @@ class Owner
     Cat.all.select {|cat| cat.owner == self}
   end
 
+  def dogs
+    Dog.all.select {|cat| cat.owner == self}
+  end
+
   def self.all
     @@all
   end
