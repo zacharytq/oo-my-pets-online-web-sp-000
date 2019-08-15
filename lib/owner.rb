@@ -9,7 +9,7 @@ class Owner
   end
 
   def say_species
-    "I am human."
+    "I am a human."
   end
 
   def self.all
